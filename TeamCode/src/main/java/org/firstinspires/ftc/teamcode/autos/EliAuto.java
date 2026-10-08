@@ -1,4 +1,15 @@
-package org.firstinspires.ftc.teamcode.autos.EliAuto;
+package org.firstinspires.ftc.teamcode.autos;
+
+import static com.pedropathing.api.Paths.*;
+
+import com.pedropathing.api.PoseFactory;
+import com.pedropathing.follower.Follower;
+import com.pedropathing.math.Pose;
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.pedropathing.paths.Path;
+
+import org.firstinspires.ftc.teamcode.pedro.Constants;
 
 @Autonomous
 public class EliAuto extends OpMode {
